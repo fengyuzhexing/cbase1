@@ -1,0 +1,54 @@
+2019-12-11 10:14:27  [ http-bio-8080-exec-6:0 ] - [ INFO ]  域名信息:localhost
+2019-12-11 10:15:13  [ http-bio-8080-exec-7:46141 ] - [ INFO ]  域名信息:localhost
+2019-12-11 10:26:35  [ http-bio-8080-exec-5:0 ] - [ INFO ]  域名信息:localhost
+2019-12-11 10:28:26  [ http-bio-8080-exec-10:110770 ] - [ ERROR ]  org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+### The error may exist in mapper/tongjiMapper.xml
+### The error may involve com.yimeimei5.mybatis.tongjiMapper.gethaocaiCountTongJi-Inline
+### The error occurred while setting parameters
+### SQL: SELECT   sum(Count) as count,   0 as money,   ProductName as name   FROM consumablesconsumption    WHERE Status!=0 and HospitalID=?         and CreateTime>=?             and ?>=CreateTime    group by ProductName order by ProductName;
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+2019-12-11 10:28:26  [ http-bio-8080-exec-10:110785 ] - [ ERROR ]  public com.yimeimei5.sysrequestmodels.resultModel com.yimeimei5.maincontroller.tongjiController.haocaitongjilist(com.yimeimei5.sysrequestmodels.HospitalClientUserCenterHuiFangSearchModel) throws java.io.IOException
+2019-12-11 10:28:32  [ http-bio-8080-exec-9:116734 ] - [ ERROR ]  org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+### The error may exist in mapper/tongjiMapper.xml
+### The error may involve com.yimeimei5.mybatis.tongjiMapper.gethaocaiCountTongJi-Inline
+### The error occurred while setting parameters
+### SQL: SELECT   sum(Count) as count,   0 as money,   ProductName as name   FROM consumablesconsumption    WHERE Status!=0 and HospitalID=?         and CreateTime>=?             and ?>=CreateTime    group by ProductName order by ProductName;
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+2019-12-11 10:28:32  [ http-bio-8080-exec-9:116735 ] - [ ERROR ]  public com.yimeimei5.sysrequestmodels.resultModel com.yimeimei5.maincontroller.tongjiController.haocaitongjilist(com.yimeimei5.sysrequestmodels.HospitalClientUserCenterHuiFangSearchModel) throws java.io.IOException
+2019-12-11 10:29:30  [ http-bio-8080-exec-8:174845 ] - [ ERROR ]  org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+### The error may exist in mapper/tongjiMapper.xml
+### The error may involve com.yimeimei5.mybatis.tongjiMapper.gethaocaiCountTongJi-Inline
+### The error occurred while setting parameters
+### SQL: SELECT   sum(Count) as count,   0 as money,   ProductName as name   FROM consumablesconsumption    WHERE Status!=0 and HospitalID=?         and CreateTime>=?             and ?>=CreateTime    group by ProductName order by ProductName;
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+2019-12-11 10:29:30  [ http-bio-8080-exec-8:174845 ] - [ ERROR ]  public com.yimeimei5.sysrequestmodels.resultModel com.yimeimei5.maincontroller.tongjiController.haocaitongjilist(com.yimeimei5.sysrequestmodels.HospitalClientUserCenterHuiFangSearchModel) throws java.io.IOException
+2019-12-11 10:31:21  [ http-bio-8080-exec-10:0 ] - [ INFO ]  域名信息:localhost
+2019-12-11 10:31:37  [ http-bio-8080-exec-9:15846 ] - [ ERROR ]  org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+### The error may exist in mapper/tongjiMapper.xml
+### The error may involve com.yimeimei5.mybatis.tongjiMapper.gethaocaiCountTongJi-Inline
+### The error occurred while setting parameters
+### SQL: SELECT   sum(Count) as count,   0 as money,   ProductName as name   FROM consumablesconsumption    WHERE Status!=0 and HospitalID=?         and CreateTime>=?             and ?>=CreateTime    group by ProductName order by ProductName;
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+2019-12-11 10:31:37  [ http-bio-8080-exec-9:15846 ] - [ ERROR ]  public com.yimeimei5.sysrequestmodels.resultModel com.yimeimei5.maincontroller.tongjiController.haocaitongjilist(com.yimeimei5.sysrequestmodels.HospitalClientUserCenterHuiFangSearchModel) throws java.io.IOException
+2019-12-11 10:32:11  [ http-bio-8080-exec-6:49447 ] - [ ERROR ]  org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+### The error may exist in mapper/tongjiMapper.xml
+### The error may involve com.yimeimei5.mybatis.tongjiMapper.gethaocaiCountTongJi-Inline
+### The error occurred while setting parameters
+### SQL: SELECT   sum(Count) as count,   0 as money,   ProductName as name   FROM consumablesconsumption    WHERE Status!=0 and HospitalID=?         and CreateTime>=?             and ?>=CreateTime    group by ProductName order by ProductName;
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+2019-12-11 10:32:11  [ http-bio-8080-exec-6:49448 ] - [ ERROR ]  public com.yimeimei5.sysrequestmodels.resultModel com.yimeimei5.maincontroller.tongjiController.haocaitongjilist(com.yimeimei5.sysrequestmodels.HospitalClientUserCenterHuiFangSearchModel) throws java.io.IOException
+2019-12-11 10:33:13  [ http-bio-8080-exec-7:0 ] - [ INFO ]  域名信息:localhost
+2019-12-11 10:33:59  [ http-bio-8080-exec-10:46306 ] - [ ERROR ]  org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+### The error may exist in mapper/tongjiMapper.xml
+### The error may involve com.yimeimei5.mybatis.tongjiMapper.gethaocaiCountTongJi-Inline
+### The error occurred while setting parameters
+### SQL: SELECT   sum(Count) as count,   0 as money,   ProductName as name   FROM consumablesconsumption    WHERE Status!=0 and HospitalID=?         and CreateTime>=?             and ?>=CreateTime    group by ProductName order by ProductName;
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'Status' in 'where clause'
+2019-12-11 10:33:59  [ http-bio-8080-exec-10:46307 ] - [ ERROR ]  public com.yimeimei5.sysrequestmodels.resultModel com.yimeimei5.maincontroller.tongjiController.haocaitongjilist(com.yimeimei5.sysrequestmodels.HospitalClientUserCenterHuiFangSearchModel) throws java.io.IOException
+2019-12-11 10:35:17  [ http-bio-8080-exec-7:0 ] - [ INFO ]  域名信息:localhost
